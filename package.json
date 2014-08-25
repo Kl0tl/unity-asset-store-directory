@@ -1,0 +1,25 @@
+{
+  "name": "unity-asset-store-directory",
+  "version": "0.1.0",
+  "description": "Returns the local path where `.unitypackage` files are downloaded from the Unity Asset Store.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kl0tl/unity-asset-store-directory.git"
+  },
+  "keywords": [
+    "unity",
+    "unity3d",
+    "asset",
+    "store"
+  ],
+  "author": "Cyril Sobierajewicz <sobierajewicz.cyril@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kl0tl/unity-asset-store-directory/issues"
+  },
+  "homepage": "https://github.com/Kl0tl/unity-asset-store-directory"
+}
