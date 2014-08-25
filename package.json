@@ -1,7 +1,7 @@
 {
   "name": "unity-asset-store-directory",
   "version": "0.1.0",
-  "description": "Returns the local path where `.unitypackage` files are downloaded from the Unity Asset Store.",
+  "description": "Return the local path where `.unitypackage` files are downloaded from the Unity Asset Store.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
