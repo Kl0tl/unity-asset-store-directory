@@ -24,22 +24,13 @@ var doc = [
   '  ' + clc.magenta('-v --version') + '  Show version number.',,
 ].join('\n');
 
-var code = 0;
-
 if (argv.h || argv.help) {
   writeDocToStdout();
 } else if (argv.v || argv.version) {
   writeVersionToStdout();
 } else {
-  try {
-    console.log(unityAssetStoreDirectory());
-  } catch (err) {
-    console.error(clc.red(err.stack));
-    code = 1;
-  }
+  process.stdout.write(unityAssetStoreDirectory() + '\n');
 }
-
-process.exit(code);
 
 function writeDocToStdout() {
   process.stdout.write('\n' + doc + '\n');
